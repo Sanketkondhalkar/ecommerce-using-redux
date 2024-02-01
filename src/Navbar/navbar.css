@@ -1,0 +1,66 @@
+.navbar_main {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar_main .logo {
+  width: 104px;
+  height: 100%;
+}
+.navbar_main .logo img {
+  width: 104px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.navbar_main .menubar ul {
+  color: white;
+  display: flex;
+}
+.navbar_main .menubar ul li {
+  margin: 0px 20px;
+  list-style: none;
+}
+.navbar_main .search_box {
+  display: flex;
+  align-items: center;
+}
+.navbar_main .search_box input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px 0px 0px 15px;
+}
+.navbar_main .search_box button {
+  background-color: #dba432;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  padding: 9px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 15px 15px 0px;
+}
+.navbar_main .cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar_main .cart h1 {
+  color: white;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a h1 {
+  text-decoration: none;
+}/*# sourceMappingURL=navbar.css.map */

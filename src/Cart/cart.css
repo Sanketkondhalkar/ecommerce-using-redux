@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url("https://cdn.dribbble.com/users/1010436/screenshots/11302442/empty_cart.jpg");
+  background-size: 100% 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.productcart {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.productcart .card {
+  height: 100px;
+  margin-top: 50PX;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.productcart .card .image {
+  height: 90px;
+  width: 20%;
+}
+.productcart .card .image img {
+  height: 90px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.productcart .card .title {
+  height: 90px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productcart .card .quantity {
+  height: 90px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productcart .card .quantity button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  margin: 0px 10px;
+}
+.productcart .card .price {
+  height: 90px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productcart .card .deletebutton {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.buttondata {
+  padding: 14px 14px;
+  background-color: #dba432;
+  border: none;
+  color: white;
+  outline: none;
+}/*# sourceMappingURL=cart.css.map */

@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url("https://cdn.dribbble.com/users/1010436/screenshots/11302442/empty_cart.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+.productcart {
+    height: auto;
+    // background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .card {
+        height: 100px;
+        margin-top: 50PX;
+        width: 80%;
+        background-color: white;
+        display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        justify-content: space-evenly;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .image {
+            height: 90px;
+            width: 20%;
+
+            // background-color: ;
+            img {
+                height: 90px;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .title {
+            height: 90px;
+            width: 20%;
+            // background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {}
+
+
+        }
+
+        .quantity {
+            height: 90px;
+            width: 20%;
+            // background-color: orangered;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                color: white;
+                background-color: black;
+                margin: 0px 10px;
+            }
+
+        }
+
+        .price {
+            height: 90px;
+            // background-color: orange;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .deletebutton {
+            height: 90px;
+            // background-color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+        }
+    }
+
+
+
+}
+
+.buttondata {
+
+    padding: 14px 14px;
+    background-color: #dba432;
+    border: none;
+    color: white;
+    outline: none;
+}
